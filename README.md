@@ -12,18 +12,48 @@ https://stackoverflow.com/users/9093208/rohit-maurya
 # API Details
 https://www.evernote.com/l/AGD08pwCwxFPlbxmVpOu90cK3LGG7ggDrL4
   # GET Methods
-    # View all post (all questions with tag)
+    1- View all post (all questions with tag)
       localhost:8080/post
-    # View by question id or title
+    2- View by question id or title
       localhost:8080/post/<question_id>/ans
       localhost:8080/post/<title>/ans
-    # Upvote answer/question
+    3- Upvote answer/question
       localhost:8080/post/<question_id>/ans/<answer_id>/upvote
       localhost:8080/post/<question_id>/ques/upvote
-    # Down vote question/answer
+    4- Down vote question/answer
       localhost:8080/post/<question_id>/ans/<answer_id>/downvote
       localhost:8080/post/<question_id>/ques/downvote
-    # View user id dashboard
+    5- View user id dashboard
       localhost:8080/user/<user_id>
-    # Send notification [search in db who all are associated with eventId and notify them]
+    6- Send notification [search in db who all are associated with eventId and notify them]
       localhost:8080/notification/event_id
+  # Post Methods
+    1- Add new question
+        localhost:8080/user/<user_id>
+        Method POST
+
+        Request body:
+
+        {
+        "question": "How to learn to code lld in Java",
+        "tags": [
+                {
+                 "tagName": "Java"
+                 }
+        ]
+        }
+     2- Add new answer for question id <question_id>
+        localhost:8080/post/<question_id>
+
+        Method :POST
+
+
+        Request Body
+        {
+        "answer": "If you learn Design Pattern, you can learn how to code lld in any language"
+     3- Upvote answer
+        localhost:8080/post/<question_id>/ans/<answer_id>/upvote
+        Method : GET
+     4- Downvote answer
+        localhost:8080/post/<question_id>/ans/<answer_id>/downvote
+        Method : GET
