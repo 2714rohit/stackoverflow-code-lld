@@ -13,35 +13,35 @@ https://stackoverflow.com/users/9093208/rohit-maurya
 https://www.evernote.com/l/AGD08pwCwxFPlbxmVpOu90cK3LGG7ggDrL4
   # GET Methods
     1- View all post (all questions with tag)
-      localhost:8080/post
+       localhost:8080/post
     2- View by question id or title
-      localhost:8080/post/<question_id>/ans
-      localhost:8080/post/<title>/ans
+       localhost:8080/post/<question_id>/ans
+       localhost:8080/post/<title>/ans
     3- Upvote answer/question
-      localhost:8080/post/<question_id>/ans/<answer_id>/upvote
-      localhost:8080/post/<question_id>/ques/upvote
+       localhost:8080/post/<question_id>/ans/<answer_id>/upvote
+       localhost:8080/post/<question_id>/ques/upvote
     4- Down vote question/answer
-      localhost:8080/post/<question_id>/ans/<answer_id>/downvote
-      localhost:8080/post/<question_id>/ques/downvote
+       localhost:8080/post/<question_id>/ans/<answer_id>/downvote
+       localhost:8080/post/<question_id>/ques/downvote
     5- View user id dashboard
-      localhost:8080/user/<user_id>
+       localhost:8080/user/<user_id>
     6- Send notification [search in db who all are associated with eventId and notify them]
-      localhost:8080/notification/event_id
+       localhost:8080/notification/event_id
   # Post Methods
     1- Add new question
-        localhost:8080/user/<user_id>
-        Method POST
+       localhost:8080/user/<user_id>
+       Method POST
 
-        Request body:
+       Request body:
 
-        {
-        "question": "How to learn to code lld in Java",
-        "tags": [
-                {
-                 "tagName": "Java"
-                 }
-        ]
-        }
+       {
+       "question": "How to learn to code lld in Java",
+       "tags": [
+               {
+                "tagName": "Java"
+                }
+       ]
+       }
      2- Add new answer for question id <question_id>
         localhost:8080/post/<question_id>
 
