@@ -2,12 +2,12 @@
 https://stackoverflow.com/users/9093208/rohit-maurya
 
 # Requirements
-1- Post questions and add Category / Tag
-2- Search based on title, tag or question id
-3- Add answers to questions
-4- Upvote and Downvote to questions and answers
-5- View users dashboard [earned badges]
-6- Send notification to the user 1, if any other user add commente/upvote/downvote/answer to the user 1 activity
+    1- Post questions and add Category / Tag
+    2- Search based on title, tag or question id
+    3- Add answers to questions
+    4- Upvote and Downvote to questions and answers
+    5- View users dashboard [earned badges]
+    6- Send notification to the user 1, if any other user add commente/upvote/downvote/answer to the user 1 activity
 
 # API Details
 https://www.evernote.com/l/AGD08pwCwxFPlbxmVpOu90cK3LGG7ggDrL4
