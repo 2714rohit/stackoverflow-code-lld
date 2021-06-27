@@ -59,3 +59,21 @@ https://stackoverflow.com/users/9093208/rohit-maurya
         
    # LLD Diagram / Class Diagram
    ![image](https://user-images.githubusercontent.com/20575442/123557934-4747c080-d7b1-11eb-891b-84a40603b3db.png)
+
+   # Database table design
+   *User_Table* : user_id, name, email_id, designation, reputation, badge_id
+   
+   *Question_Table* : qes_id, description, title, user_id, TimeStamp, total_vote_count
+   
+                      total_vote_count => it will help to fetch all vote for a particular question, helps to reduce query
+                      
+   *Answer_Table* : asn_id, description, user_id, event_id, event_type, TimeStamp, total_vote_count
+   
+                    event_id => comment on answer/question or Answer for question
+                    event_type => comment or answer
+                    ans_Id : use same table for both comment as well as Answer
+                 
+   *Badge_Table* : badge_id, type
+   
+                    in this table badge_id and type both together will be PK, the reason of having both togehter as key is one user
+                    may achive multiple badges
