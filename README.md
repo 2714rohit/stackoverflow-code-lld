@@ -58,4 +58,4 @@ https://stackoverflow.com/users/9093208/rohit-maurya
         Method : GET
         
    # LLD Diagram / Class Diagram
-   ![image of Class Diagram](https://user-images.githubusercontent.com/20575442/123557178-0e0d5180-d7ad-11eb-9c9f-833ab2c2d665.png)
+   ![image](https://user-images.githubusercontent.com/20575442/123557934-4747c080-d7b1-11eb-891b-84a40603b3db.png)
