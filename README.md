@@ -10,7 +10,6 @@ https://stackoverflow.com/users/9093208/rohit-maurya
     6- Send notification to the user 1, if any other user add commente/upvote/downvote/answer to the user 1 activity
 
 # API Details
-https://www.evernote.com/l/AGD08pwCwxFPlbxmVpOu90cK3LGG7ggDrL4
   # GET Methods
     1- View all post (all questions with tag)
        localhost:8080/post
