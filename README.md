@@ -59,3 +59,4 @@ https://www.evernote.com/l/AGD08pwCwxFPlbxmVpOu90cK3LGG7ggDrL4
         Method : GET
         
    # LLD Diagram / Class Diagram
+        ![image](https://user-images.githubusercontent.com/20575442/123556792-ec12cf80-d7aa-11eb-8499-c8f78fbc7481.png)
