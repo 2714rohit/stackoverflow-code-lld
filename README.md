@@ -52,10 +52,10 @@ https://stackoverflow.com/users/9093208/rohit-maurya
         "answer": "If you learn Design Pattern, you can learn how to code lld in any language"
      3- Upvote answer
         localhost:8080/post/<question_id>/ans/<answer_id>/upvote
-        Method : GET
+        Method : POST
      4- Downvote answer
         localhost:8080/post/<question_id>/ans/<answer_id>/downvote
-        Method : GET
+        Method : POST
         
    # LLD Diagram / Class Diagram
    ![image](https://user-images.githubusercontent.com/20575442/123557934-4747c080-d7b1-11eb-891b-84a40603b3db.png)
